@@ -1,0 +1,151 @@
+/* Main file */
+
+.main_container{
+  margin-inline: auto;
+  margin:30px;
+}
+
+#list {
+  width: 100%;
+  /* overflow: hidden; */
+  margin-bottom: -1.875em;
+  /* -webkit-column-count: 3; */
+  /* -webkit-column-gap: 1.875em;
+  -webkit-column-fill: auto; */
+  /* -moz-column-count: 3;
+  -moz-column-gap: 1.875em;
+  -moz-column-fill: auto;
+  column-count: 3; */
+  /* column-gap: 1.875em;
+  column-fill: auto; */
+}
+
+/* Header File */
+
+.main_header {
+  margin: 0px;
+  margin-bottom: 30px;
+  color: brown;
+  background-color: lavender;
+}
+.header {
+  padding: 40px 30px;
+}
+
+/* CreateNote file */
+.content_wrapper {
+  margin: 20px;
+  text-align: center;
+}
+.form {
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+    /* max-width: max-content; */
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 800px;
+
+}
+.note_title {
+  border: none;
+  color: #000;
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  margin: 10px 0;
+  outline: none;
+}
+.note_title::placeholder {
+  color: #3c4043;
+  opacity: 1;
+}
+.note_detail {
+  border: none;
+  color: #000;
+  display: inline-block;
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  outline: none;
+  resize: vertical;
+  /* overflow: hidden; */
+  min-height: 8rem;
+}
+.note_detail::placeholder {
+  color: #3c4043;
+  opacity: 0.5;
+}
+.add_button {
+  background-color: lavender;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  /* margin-left: 30rem; */
+}
+
+
+/* MyNote file */
+.card-block {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 18px;
+  margin: 10px;
+  border-bottom-width: thick;
+  word-break: break-word;
+  border-right-width: thick;
+  background-color: lavender;
+  margin-bottom: 1.875em;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+}
+
+.title {
+  padding-left: 1rem;
+}
+
+.detail {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+.delete_button {
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: 12rem;
+}
+
+/* .delete_button{
+  border-radius: 30px;
+} */
+
+/* Footer file */
+
+footer {
+  background-color: lavender;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+}
+
